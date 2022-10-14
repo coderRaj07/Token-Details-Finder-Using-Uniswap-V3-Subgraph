@@ -132,7 +132,7 @@ export default function Home() {
       setTotalValueLockedUSD(0)
 
       setUntrackedVolumeUSD(0)
-     // console.error(error);
+      console.error(error);
     }
   }
 

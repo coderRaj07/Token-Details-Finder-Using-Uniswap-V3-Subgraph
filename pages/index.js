@@ -63,8 +63,8 @@ export default function Home() {
   }
 
   const [decimals, setDecimals] = useState(0)
-  const [id, setId] = useState("")
-  const [name, setName] = useState("")
+  const [id, setId] = useState("0x0000000000000000000000000000000000000000")
+  const [name, setName] = useState("Not Available")
   const [feesUSD, setFeesUSD] = useState(0)
   const [volumeUSD, setVolumeUSD] = useState(0)
   const [totalValueLockedUSD, setTotalValueLockedUSD] = useState(0)

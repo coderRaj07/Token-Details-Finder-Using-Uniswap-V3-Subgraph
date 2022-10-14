@@ -118,8 +118,7 @@ export default function Home() {
     }
 
     catch (error) {
-      setSymbol(res[0].symbol)
-
+     
       setDecimals(0)
 
       setId("0x0000000000000000000000000000000000000000")

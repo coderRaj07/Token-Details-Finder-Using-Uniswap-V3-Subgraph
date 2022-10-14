@@ -118,6 +118,21 @@ export default function Home() {
     }
 
     catch (error) {
+      setSymbol(res[0].symbol)
+
+      setDecimals(0)
+
+      setId("0x0000000000000000000000000000000000000000")
+
+      setName("Not Available")
+
+      setFeesUSD(0)
+
+      setVolumeUSD(0)
+
+      setTotalValueLockedUSD(0)
+
+      setUntrackedVolumeUSD(0)
       console.error(error);
     }
   }
